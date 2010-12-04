@@ -1,0 +1,169 @@
+<p>
+<%= link_to 'Print Your Bracket', {:action => "print_brackets", :id => @bracket.id}, :html_options => { :target => '_blank' } %> |
+<%= link_to 'Edit', edit_bracket_path(@bracket) %> |
+<%= link_to 'Back', brackets_path %>
+</p>
+
+<p>
+<h2 style="color:blue; text-align: center;"> <%=h @bracket.name %> </h2>
+</p>
+
+
+
+<div class="bracket">
+
+  <table summary="Tournament Bracket">
+ <tr>
+   <td><p> </p></td>
+
+  <td rowspan="2"><p> </p></td>
+
+  <% if @bracket.size > 3 %>
+  <td rowspan="4"><p> </p></td>
+  <%end%>
+  <% if @bracket.size > 7 %>
+  <td rowspan="8"><p> </p></td>
+  <%end%>
+  <% if @bracket.size > 15 %>
+  <td rowspan="16"><p> </p></td>
+<%end%>
+  <% if @bracket.size > 31 %>
+  <td rowspan="32"><p> </p></td><%end%>
+ </tr>
+ <tr>
+  <td><p> </p></td>
+ </tr>
+ <% if @bracket.size > 3 %>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td> </tr>
+ <tr>
+  <td><p> </p></td>
+ </tr>
+ <% end %>
+ <% if @bracket.size > 7 %>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td>
+  <td rowspan="4"><p> </p></td></tr>
+ <tr>
+
+  <td><p> </p></td> </tr>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td></tr>
+ <tr>
+
+  <td><p> </p></td></tr>
+ <% end %>
+ <% if @bracket.size > 15 %>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td>
+  <td rowspan="4"><p> </p></td>
+  <td rowspan="8"<p> </p></td>
+ </tr>
+ <tr>
+  <td><p> </p></td></tr>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td>
+ </tr>
+ <tr>
+  <td><p> </p></td></tr>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td>
+  <td rowspan="4"><p> </p></td></tr>
+ <tr>
+  <td><p> </p></td> </tr>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td> </tr>
+ <tr>
+  <td><p> </p></td></tr>
+ <% end %>
+
+<!-- START BOTTOM HALF -->
+
+<% if @bracket.size > 31 %>
+
+ <tr>
+   <td><p> </p></td>
+
+  <td rowspan="2"><p> </p></td>
+
+  <% if @bracket.size > 3 %>
+  <td rowspan="4"><p> </p></td>
+  <%end%>
+  <% if @bracket.size > 7 %>
+  <td rowspan="8"><p> </p></td>
+  <%end%>
+  <% if @bracket.size > 15 %>
+  <td rowspan="16"><p> </p></td>
+<%end%>
+
+ </tr>
+ <tr>
+  <td><p> </p></td>
+ </tr>
+ <% if @bracket.size > 3 %>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td> </tr>
+ <tr>
+  <td><p> </p></td>
+ </tr>
+ <% end %>
+ <% if @bracket.size > 7 %>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td>
+  <td rowspan="4"><p> </p></td></tr>
+ <tr>
+
+  <td><p> </p></td> </tr>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td></tr>
+ <tr>
+
+  <td><p> </p></td></tr>
+ <% end %>
+ <% if @bracket.size > 15 %>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td>
+  <td rowspan="4"><p> </p></td>
+  <td rowspan="8"<p> </p></td>
+ </tr>
+ <tr>
+  <td><p> </p></td></tr>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td>
+ </tr>
+ <tr>
+  <td><p> </p></td></tr>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td>
+  <td rowspan="4"><p> </p></td></tr>
+ <tr>
+  <td><p> </p></td> </tr>
+ <tr>
+  <td><p> </p></td>
+  <td rowspan="2"><p> </p></td> </tr>
+ <tr>
+  <td><p> </p></td></tr>
+ <% end %>
+
+ <%end%>
+
+
+</table>
+
+
+
+
+</div>

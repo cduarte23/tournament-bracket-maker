@@ -1,0 +1,316 @@
+/* 
+    Document   : styleaddon
+    Created on : May 21, 2010, 10:45:16 AM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* D5E1DD  F7F3E8   F2583E   77BED2
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+a.blk:link {color: gray;  }
+a.blk:active {color: black;}
+a.blk:visited {color: gray; }
+a.blk:hover {color: black; }
+
+ul#listOfImages {
+  background: #e5e5e5;
+  height: 380px;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  position: relative;
+}
+
+  ul#listOfImages li {
+    display: block;
+    height: 380px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 600px;
+  }
+
+    ul#listOfImages li img {
+      border: 2px solid #333;
+    }
+
+
+
+.even  {
+    background: #2B3E42;
+    color:#FFFFFF;
+}
+
+.odd  {
+    background: #747E80;
+    color:#FFFFFF;
+
+}
+
+
+
+.admineven *{
+       
+        background: #BCBCBC;
+}
+
+.adminodd * {
+      
+        background: #3299BB;
+}
+
+.smallarea textarea {
+    width:390px;
+    height:90px;
+    padding:5px;
+ 
+}
+
+.team * {
+    color: #6277BB;
+}
+
+.score * {
+   color: #8d9dd2;
+}
+
+body {
+
+  
+ color: black;
+}
+
+img.displaycenter {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto }
+
+
+#top {
+
+    background: #CDD9F9;
+ 
+}
+
+#drawtitle {
+    color: #5265AA;
+    text-align: center;
+}
+
+#top-left {
+    color: black;
+
+}
+
+#top-left .tinyarea textarea {
+
+    
+    width:205px;
+    height:90px;
+    padding:5px;
+}
+
+#top-left-subpages * {
+    color: black;
+   
+}
+
+#top-right-flash {
+  background-image: url(images/flashbackground.gif);
+  background-repeat:no-repeat;
+  padding: 7px 25px 10px 15px;
+}
+
+#top-right-flash-small {
+  background-image: url(images/flashbackgroundsmall.gif);
+  background-repeat:no-repeat;
+  padding: 7px 25px 10px 15px;
+}
+
+#top-right {
+
+    color: #FFFFFF;
+    background-image: url(images/bgboxrep.gif);
+    background-repeat: repeat-y;
+   
+}
+
+#top-right img {
+    padding: 3px 0px 3px 2px;
+   
+}
+
+#top-right p {
+    padding: 0px 2px 0px 5px;
+}
+
+#middle {
+
+
+
+}
+
+#middle-left {
+    color: white;
+    background-image: url(images/bgboxrep.gif);
+    background-repeat: repeat-y;
+    padding: 10px;
+}
+
+
+#middle-left-subpage {
+    color: black;
+
+    background-image: url(images/bgboxreplong.gif);
+    background-repeat: repeat-y;
+    padding: 10px;
+}
+
+
+#middle-left-subpage a {
+    color: #FF0;
+    text-decoration: none;
+    font-weight:bold;
+}
+#middle-left-highlight {
+
+    color: #FF0;
+}
+
+#middle-left-subpage-highlight {
+
+    color: #FF0;
+}
+
+
+#quiet2 {
+    color: #747E80;
+}
+
+#middle-center {
+    color: white;
+    background-image: url(images/bgboxrep.gif);
+    background-repeat: repeat-y;
+    padding: 10px 10px 10px 0px;
+}
+
+#middle-center-bottom {
+    color: white;
+    background-image: url(images/bgboxrep.gif);
+    background-repeat: repeat-y;
+    padding: 20px 5px;
+}
+
+
+#middle-center table, h1, h2, h3, p {
+    color: black;
+   
+    padding: 10px;
+}
+
+
+#middle-right {
+    color: white;
+    background-image: url(images/bgboxrep.gif);
+    background-repeat: repeat-y;
+    padding: 0px 15px 0px 0px;
+}
+
+#middle-right img {
+
+  
+  padding: 10px 0px;
+}
+
+#bottom {
+    color: black;
+   
+ 
+}
+
+#header {
+    background: #6277bb;
+
+}
+
+#header-left {
+    background-image: url(images/bannerbg.png);
+    background-repeat: repeat-x;
+}
+
+#header-right {
+    background-image: url(images/bannerbg.png);
+    background-repeat: repeat-x;
+}
+
+#logo {
+
+
+}
+
+#headerright {
+  
+}
+
+#headersponsor {
+  
+  }
+
+#headeremailform {
+
+ 
+}
+
+#ad_spot {
+
+
+}
+
+#navigation {
+
+   
+
+    background-image: url(images/navbg1.jpg);
+    background-repeat: repeat-x;
+
+}
+
+
+div.bracket table {
+  border-collapse: collapse;
+  border: none;
+  font: small arial, helvetica, sans-serif;
+  padding: 0px;
+}
+div.bracket td {
+  vertical-align: middle;
+  width: 15em;
+  margin: 0px;
+  padding: 1em;
+}
+div.bracket td p {
+
+  color:#616362;
+  font-weight:bold;
+  width: 15em;
+  border-bottom: solid 2px black;
+  margin: 0px;
+  padding: 0px;
+}
+div.bracket td p a:link {color: black; text-decoration: none; font-weight:bold; }
+div.bracket td p a:active {color: black; text-decoration: none }
+div.bracket td p a:hover {color: black; text-decoration: none }
+div.bracket td p a:visited {color: black; text-decoration: none  }
+
+
+
+
+

@@ -1,0 +1,31 @@
+<h1>Listing User Brackets</h1>
+<p>
+<h3> <%= link_to 'Click Here To Create And Print Your Brackets', new_bracket_path %> </h3>
+</p>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Size</th>
+  </tr>
+
+<% @brackets.each do |bracket| %>
+  <tr>
+    <td><%=h bracket.name %></td>
+    <td><%=h bracket.size %></td>
+    <td><%= link_to 'Show', bracket %></td>
+    <td><%= link_to 'Edit', edit_bracket_path(bracket) %></td>
+    <td><%= link_to 'Destroy', bracket, :confirm => 'Are you sure?', :method => :delete %></td>
+    
+   
+  </tr>
+<% end %>
+
+   
+</table>
+
+<br />
+
+<p>Brackets in Database refreshed after 10 are created. There is no limit to how many you can create for Free!</p>
+
+<%= link_to 'New Bracket', new_bracket_path %>

@@ -1,0 +1,227 @@
+/* 
+    Document   : styles
+    Created on : Mar 10, 2010, 6:14:14 PM
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    color:black;
+    background: #CDD9F9;
+    font-size: small;
+}
+
+#allcontent {
+
+
+    width: 1000px;
+    padding: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infopage {
+
+    clear: both;
+    margin: 0px 0px 6px 0px;
+    padding: 10px 0px 10px 0px;
+    width: 1000px;
+    height: 400px;
+
+}
+
+#header {
+
+    width: 1000px;
+}
+
+#logo {
+
+   float: left;
+}
+
+#headerright {
+    background-image: url(images/bannerbg.png);
+    background-repeat: repeat-x;
+    margin-left: 775px;
+    height:150px;
+}
+
+#headersponsor {
+    text-align :center;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+  }
+
+#headeremailform {
+
+    text-align :center;
+    padding: 15px 0px 0px 0px;
+}
+
+#navigation {
+
+    margin: 0px 0px 0px 0px;
+
+    background-image: url(images/navbg1.jpg);
+    background-repeat: repeat-x;
+    width: 1000px;
+    clear:both;
+}
+
+#navigation img {
+
+   margin: 0px 0px 0px 0px;
+   padding: 5px 12px 5px 12px;
+   border: none;
+
+}
+
+
+
+#top {
+    clear: both;
+    margin: 0px 0px 0px 0px;
+    width: 1000px;
+
+   }
+
+#topleft {
+
+    margin: 20px 0px 20px 0px;
+    padding: 10px 10px 10px 10px;
+    background: #233E99;
+    float: left;
+
+}
+
+#topright {
+
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 10px 40px;
+    width: 320px;
+    margin-left: 640px;
+
+
+}
+
+#topright p {
+    background-image: url(images/bgboxrep.gif);
+    background-repeat: repeat-y;
+    margin: 0px 0px 0px 0px;
+       }
+
+
+
+#topright p img {
+   padding: 10px 5px 10px 5px;
+   margin-left: 10px;
+   background-image: url(images/scoreboardbg.gif);
+   border: none;
+}
+
+#middle {
+    clear: both;
+    margin: 0px 0px 6px 0px;
+    padding: 10px 0px 10px 0px;
+    width: 1000px;
+    height: 400px;
+
+}
+
+#middleleft {
+  width: 320px;
+  height: 400px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+  float: left;
+}
+
+#middle p {
+    background-image: url(images/bgboxrep.gif);
+    background-repeat: repeat-y;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+}
+
+#middle p input {
+   
+    border: 1px solid #006;
+    background: #ffc;
+}
+
+#middle p button {
+  
+    border: 1px solid #006;
+    background: #9cf;
+}
+
+#middlecenter {
+    margin: 0px 320px 0px 330px;
+    padding: 0px 0px 10px 10px;
+    height: 400px;
+}
+
+#middlecenter p {
+    padding: 0px 40px 0px 20px;
+}
+
+
+#middleright {
+
+    width: 320px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    float: right;
+    height: 400px;
+}
+
+#bottom {
+
+    clear: both;
+    width: 1000px;
+    height: 100px;
+    background-image: url(images/footer.gif);
+    background-repeat: no-repeat;
+}
+
+#left {
+    background: #063106;
+    width: 200px;
+
+}
+
+#center {
+    background: #063106;
+    width: 200px;
+
+}
+
+#right {
+    background: #063106;
+    width: 200px;
+}
+
+div.bracket table {
+  border-collapse: collapse;
+  border: none;
+  font: small arial, helvetica, sans-serif;
+}
+div.bracket td {
+  vertical-align: middle;
+  width: 10em;
+  margin: 0;
+  padding: 0;
+}
+div.bracket td p {
+  border-bottom: solid 1px black;
+  margin: 0;
+  padding: 5px 5px 2px 5px;
+}
+

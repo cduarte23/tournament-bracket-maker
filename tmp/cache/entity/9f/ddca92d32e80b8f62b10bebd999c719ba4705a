@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+  <meta charset="utf-8"/>
+  <title>Small Wonder Festival</title>
+  <link rel="stylesheet" href="/stylesheet" media="all" title="Default" charset="utf-8"/>
+</head>
+<body>
+
+<div class="container ">
+
+  <div class="span-24 last" id="header">
+   
+      <img class="left" src="/images/user/tournament-bracket-maker-logo.jpg" alt="Tournament Bracket Maker Logo"> 
+  
+  </div> <!-- id = header -->
+
+<hr/>
+    
+  <div class="span-24 last" id="navigation">
+ <h3>   <a href="/" class="selected">Home</a>  |  <a href="/brackets">Make and Print Your Bracket</a>  |  <a href="//shawnlindsey.com">Upgrade to Full Website</a>  |  <a href="/testimonials">What Others are Saying</a>  |  <a href="/contact" class="here">Contact Us</a>
+  </div> <!-- navigation -->
+
+  <hr class="space"/>
+
+  <div class="span-24 last" id="main_content">
+    
+    <p>
+<img class="left" src="/images/user/boxshot.jpg" alt="Tournament management software">
+<form action="/pages/5/mail#mailer" method="post" id="mailer" name="mailer[contact]">
+  <fieldset>
+    <legend>Enter your contact information and message.</legend>
+    <label><input type="text" value="" id="name" name="mailer[name]"> Name</label><br>
+    <label><input type="text" value="" id="email" name="mailer[email]"> Email</label><br>
+    <textarea id="message" rows="5" cols="35" name="mailer[message]"></textarea><br>
+    <input type="submit" value="Send">
+  </fieldset>
+</form>
+
+</p>
+  </div> <!-- main_content -->
+
+  <hr class="space">
+  <hr/>
+  <div class="span-24 last" id="footer">
+   <div class="center">
+    <a href="/" class="selected">Home</a>  |  <a href="/brackets">Make and Print Your Brackets</a>  |  <a href="//shawnlindsey.com">Upgrade to Full Website</a>  |  <a href="/testimonials">What Others are Saying</a>  |  <a href="/contact" class="here">Contact Us</a> 
+    <hr class="space"/>
+  </div> <!-- navigation -->
+  <div class="center">&copy;2010  Website.com. All rights reserved.</div>
+  </div> <!--footer-->
+
+</div> <!--container -->
+</body>
+</html>
